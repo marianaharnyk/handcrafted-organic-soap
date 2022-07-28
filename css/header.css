@@ -1,0 +1,22 @@
+.horizontal-flow__container{
+    display: none;
+}
+
+/* .horizontal-flow__container {
+    background: var(--background-horizontal-flow-color);
+    height: 60px;
+} */
+
+.header__background{
+    background-image: url(../img/header-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+}
+
+.header__background-gradient{
+    background-image: url(../img/header-background-gradient.png);
+    min-height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
