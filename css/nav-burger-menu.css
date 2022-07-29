@@ -1,0 +1,141 @@
+body.lock {
+    overflow: hidden;
+}
+
+.navbar{
+    /* display: flex;
+    flex-direction: row; */
+    padding: 30px 0;
+    
+}
+
+.navbar__logo-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo-image {
+    width: 146px;
+    height: auto;
+}
+
+.navbar__burger-menu{
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 16px;
+    padding: 7px;
+    z-index: 5;
+}
+
+.navbar__burger-menu span,
+.navbar__burger-menu::before,
+.navbar__burger-menu::after{
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--text-title-color);
+    transition: all 0.5s ease-in-out; 
+}
+
+.navbar__burger-menu span{
+    transform: scale(1);
+}
+
+.navbar__burger-menu::before,
+.navbar__burger-menu::after{
+    content: " "; 
+}
+
+.navbar__burger-menu::before{
+    top: 0; 
+}
+
+.navbar__burger-menu::after{
+    bottom: 0;
+}
+
+.navbar__burger-menu.active span{
+    transform: scale(0);
+}
+
+.navbar__burger-menu.active::before{
+    top: 50%;
+    transform: rotate(-45deg);
+}
+
+.navbar__burger-menu.active::after{
+    bottom: 40%;
+    transform: rotate(45deg);
+}
+
+.navigation-wrapper{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-burger-menu-color);
+    transition: top 0.3s ease-in 0.1s;
+    overflow: hidden;
+    margin: auto;
+    z-index: 2;
+}
+
+.navigation-wrapper.active {
+    top: 0;
+}
+
+.navigation-pages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.navigation-pages__link{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--text-nav-color);
+    margin: 10px 5px;
+}
+
+.navigation__text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--text-nav-color);
+    margin: 30px 5px;
+    text-align: center;
+}
+
+.navigation__text-container :nth-child(1){
+    font-size: 12px;
+}
+
+.navigation__text-container :nth-child(2) {
+    text-decoration: underline;
+}
+
+.navigation-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-social__link{
+    width: 30px;
+    fill: var(--icon-color);
+    margin: 15px 8px;
+}

@@ -20,3 +20,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.header__subtitle{
+    font-family: 'Niconne', cursive;
+    font-size: 24px;
+}
+
+/* font-family: 'Lexend Deca', sans-serif; 
+font-family: 'Lato', sans-serif;*/
