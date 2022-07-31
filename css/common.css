@@ -15,6 +15,21 @@
     --text-light-color: rgb(255, 255, 255);
     --icon-color: rgb(147, 111, 98);
     --background-burger-menu-color:rgb(251, 240, 229);
+    --text-description-color: rgb(165, 148, 137);
+    --text-description-paragraph-color: rgb(180, 167, 158);
+    --background-care-color: rgba(255, 203, 218, 1); 
+    --text-care-subtitle-color: rgb(192, 130, 147);
+    --text-care-title-color:rgb(214, 113, 142);
+    --text-care-description-color: rgb(153, 96, 122); 
+    --text-why-us-subtitle-color: rgb(184, 164, 192);
+    --text-why-us-title-color: rgb(121, 75, 139);
+    --text-why-us-text-main-color: rgb(130, 113, 137);
+    --text-why-us-text-color: rgb(147, 132, 155);
+    --text-why-us-text-icon-color: rgb(152, 122, 164);
+    
+
+
+
     
 }
 

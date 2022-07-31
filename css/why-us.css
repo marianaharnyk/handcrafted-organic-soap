@@ -1,0 +1,27 @@
+.why-us__background-gradient{
+    background-image: url(../img/why-us-gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.why-us__background-banner{
+    background-image: url(../img/why-us-banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    background-position: 41% 50%;
+}
+
+.why-us__background-gradient-last {
+    background-image: url(../img/why-us-gradient-last.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+}
+
+@media (min-width: 768px){
+    .why-us__background-banner {
+        background-position: 17% 50%;
+    }
+}

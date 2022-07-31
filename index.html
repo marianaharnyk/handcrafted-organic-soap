@@ -14,7 +14,10 @@
 <body>
     <header class="header">
         <div class="horizontal-flow__container">
-            <div class="horizontal-flow"></div>
+            <div class="horizontal-flow">
+                <p class="horizontal-flow__text">20% OFF ON ORGANIC SOAPS | FREE SHIPPING OVER $40</p>
+                <p class="horizontal-flow__text">TRY OUR AROMATIC SOAPS</p>
+            </div>
         </div>
         <div class="header__background">
             <div class="container">
@@ -27,8 +30,8 @@
                     </div>
                     <div class="navigation-wrapper">
                         <div class="navigation-pages">
-                            <a href="#" class="navigation-pages__link">About Us</a>
-                            <a href="#" class="navigation-pages__link">Categories</a>
+                            <a href="#about-us" class="navigation-pages__link">About Us</a>
+                            <a href="#categories" class="navigation-pages__link">Categories</a>
                             <a href="#" class="navigation-pages__link">Shop</a>
                             <a href="#" class="navigation-pages__link">Testimonials</a>
                             <a href="#" class="navigation-pages__link">Contact us</a>
@@ -75,18 +78,195 @@
 
                 <div class="header__main-info">
                     <p class="header__subtitle">Cosmetics you deserve</p>
-                    <h1 class="header__title">Handcrafted Organic Soap.</h1>
+                    <h1 class="header__title">Handcrafted <br> Organic <span>Soap.</span></h1>
                     <p class="header__description">Making your body and thoughts clean and clear.</p>
 
+                    <div class="header__button">
+                        <a href="#" class="header__button-shop">Shop Now →</a>
+                        <a href="#" class="header__button-about-us">About Us</a>
+                    </div>
+
                 </div>
+
             </div>
         </div>
 
         <div class="header__background-gradient"></div>
     </header>
 
+    <section class="about-us container" id="about-us">
+        <div class="about-us__image-container">
+            <img src="img/about-us.png" class="about-us__image" alt="Image of handmade soap and bath towel">
+        </div>
+        <div class="about-us__main-info">
+            <p class="about-us__subtitle">100% natural</p>
+            <h2 class="about-us__title">Great for Your Skin<span>.</span></h2>
+            <img src="img/branch-icon.svg" class="about-us__image-branch" alt="Image of branch">
+            <p class="about-us__text">Our organic soaps gently take care of your skin. </p>
+            <div class="about-us__benefits">
+                <img src="img/list-item.svg" alt="Image of leaf">
+                <p class="about-us__benefits-text">Only natural ingredients are used in our soaps.</p>
+            </div>
+            <div class="about-us__benefits">
+                <img src="img/list-item.svg" alt="Image of leaf">
+                <p class="about-us__benefits-text">We combine cold-pressed olive oil, coconut oil, and cocoa butter.</p>
+            </div>
+            <div class="about-us__benefits">
+                <img src="img/list-item.svg" alt="Image of leaf">
+                <p class="about-us__benefits-text">Each bar of soap contains antioxidants and vitamin E.</p>
+            </div>
+            <p class="about-us__text-last">Our soap cleanses your skin, deeply nourishes, and moisturizes it.</p>
+            <a href="#" class="about-us__button">Learn more →</a>
+        </div>
+    </section>
+
+    <section class="care">
+        <div class="care__container">
+            <div class="care__image-container">
+                <img src="img/soap-image.png" class="care__image"
+                    alt="Liquid and solid soap on the background of towels">
+            </div>
+            <div class="care__description">
+                <p class="care__description-subtitle">For your bath routine</p>
+                <h2 class="care__description-title">Artisanal Level of Care.</h2>
+                <img src="img/care-branch-icon.svg" class="care__image-branch" alt="Image of branch">
+                <p class="care__description-text">
+                    Bathing isn't just about cleansing your body. With our craft bars
+                    and liquid soaps, you can truly relax and clear your mind.
+                </p>
+                <p class="care__description-text">
+                    «My evening really begins when I take a long, hot bath. I light a
+                    candle, and I turn on the news and try to catch up.
+                    It's when I can breathe from the day to the night; that means a lot to me.»
+                </p>
+                <p class="care__description-text">
+                    — Vera Wang.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="categories" id="categories">
+        <div class="categories-conainer container">
+            <header class="categories-header">
+                <p class="categories-header__subtitle">Soap</p>
+                <h2 class="categories-header__title">Categories<span>.</span></h2>
+                <img src="img/branch-icon.svg" class="categories__image-branch" alt="Image of branch">
+                <p class="categories-header__text">Here you will find different types of homemade soaps. Select your
+                    skin type, the scent, or the effect
+                    you want to achieve to find your perfect fit.</p>
+                <p class="categories-header__text">Bathing isn't just about cleansing your body. With our craft bars and
+                    liquid soaps, you can truly
+                    relax and clear your mind.</p>
+                <a href="#" class="categories-header__button">ALL SOAPS →</a>
+            </header>
+            <div class="categories-tabs__wrapper">
+                <div class="categories-tabs">
+                    <p class="tab-item active" data-tab-name="sensitive">Sensitive skin</p>
+                    <p class="tab-item" data-tab-name="problem">Problem skin</p>
+                    <p class="tab-item" data-tab-name="herbal">Herbal soup</p>
+                    <p class="tab-item" data-tab-name="sweet">Sweet soup</p>
+                </div>
+                <div class="categories-tabs__content">
+                    <article class="tab__content sensitive active">
+                        <div class="soup-wrapper">
+                            <div class="soup__image-container">
+                                <img src="img/categoreis/sensitive-skin.png" class="soup__image"
+                                    alt="Image of handmade soup">
+                            </div>
+                            <div class="soup__description">
+                                <h3 class="soup__description-title">Sensitive Skin</h3>
+                                <p class="soup__description-text">We have special soaps for especially
+                                    delicate skin that requires gentle care. </p>
+                                <a href="#" class="soup__button">Shop →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tab__content problem">
+                        <div class="soup-wrapper">
+                            <div class="soup__image-container">
+                                <img src="img/categoreis/problem-skin.png" class="soup__image"
+                                    alt="Image of handmade soup">
+                            </div>
+                            <div class="soup__description">
+                                <h3 class="soup__description-title">Problem Skin</h3>
+                                <p class="soup__description-text">The soap will help get rid of blackheads, as well
+                                    as
+                                    normalize the oil glands.</p>
+                                <a href="#" class="soup__button">Shop →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tab__content herbal">
+                        <div class="soup-wrapper">
+                            <div class="soup__image-container">
+                                <img src="img/categoreis/herbal-soap.png" class="soup__image"
+                                    alt="Image of handmade soup">
+                            </div>
+                            <div class="soup__description">
+                                <h3 class="soup__description-title">Herbal Soaps</h3>
+                                <p class="soup__description-text">These soaps are for those who love the scent of
+                                    lavender, juniper, and other herbs. </p>
+                                <a href="#" class="soup__button">Shop →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tab__content sweet">
+                        <div class="soup-wrapper">
+                            <div class="soup__image-container">
+                                <img src="img/categoreis/sweet-scents.png" class="soup__image"
+                                    alt="Image of handmade soup">
+                            </div>
+                            <div class="soup__description">
+                                <h3 class="soup__description-title">Sweet Scents</h3>
+                                <p class="soup__description-text">If you have a sweet tooth, you will love our
+                                    fruit,
+                                    candy, and other sweet-scent soaps. </p>
+                                <a href="#" class="soup__button">Shop →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="why-us">
+        <div class="why-us__background-gradient"> </div>
+        <div class="why-us__background-banner">
+            <div class="why-us__container container">
+                <p class="why-us__subtitle">Why us</p>
+                <h2 class="why-us__title">Why Shop at Purity?</h2>
+                <p class="why-us__main-text">Our range of handcrafted soaps is made to treat you and your skin, from
+                    morning washing-ups to
+                    evening relaxing baths.</p>
+                <p class="why-us__text">We are sure that using soap should be a pleasant experience — we create each
+                    soap bar not only to cleanse the skin butalso to improve your mood, help you relax, and enjoy your
+                    bath rituals. We produce a vast range of different soaps with elegant smells and unique
+                    characteristics. You can shop right on this website and get your soap delivered really fast.</p>
+
+
+
+            </div>
+
+        </div>
+        <div class="why-us__background-gradient-last"></div>
+
+    </section>
+
 
     <script src="js/burger-menu.js"></script>
+    <script src="js/categories-tab.js"></script>
 </body>
 
 </html>

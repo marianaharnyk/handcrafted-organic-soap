@@ -1,14 +1,9 @@
 body.lock {
     overflow: hidden;
 }
-
 .navbar{
-    /* display: flex;
-    flex-direction: row; */
     padding: 30px 0;
-    
 }
-
 .navbar__logo-container{
     display: flex;
     flex-direction: row;
@@ -85,7 +80,6 @@ body.lock {
     width: 100%;
     height: 100%;
     background-color: var(--background-burger-menu-color);
-    transition: top 0.3s ease-in 0.1s;
     overflow: hidden;
     margin: auto;
     z-index: 2;
@@ -93,6 +87,7 @@ body.lock {
 
 .navigation-wrapper.active {
     top: 0;
+    transition: top 0.3s ease-in 0.1s;
 }
 
 .navigation-pages{
@@ -138,4 +133,42 @@ body.lock {
     width: 30px;
     fill: var(--icon-color);
     margin: 15px 8px;
+}
+
+@media (min-width: 992px) {
+    .navbar__burger-menu {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+    .navigation-wrapper {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin: auto;
+        z-index: 2;
+        
+    }
+    .navigation__text-container{
+        display: none;
+    }
+    .navbar__logo-container{
+        display: block;
+        flex: 1;
+        align-self: center;
+    }
+    .navigation-pages {
+        flex-direction: row;
+        margin: auto;
+    }
+    .navigation-pages__link{
+        margin: 10px 20px;
+    }
 }
