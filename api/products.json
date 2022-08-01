@@ -1,0 +1,50 @@
+[
+   {
+      "id":"1",
+      "title":"Lemon Start",
+      "image":"img/shop/lemon-soup.png",
+      "price":3.99
+   },
+   {
+      "id":"2",
+      "title":"Fresh Touch",
+      "image":"img/shop/fresh-soup.png",
+      "price":2.99
+   },
+   {
+      "id":"3",
+      "title":"Tender Lavender",
+      "image":"img/shop/lavanda-soup.png",
+      "price":4.99
+   },
+   {
+      "id":"4",
+      "title":"Lemon & Vanilla",
+      "image":"img/shop/lemon-vanila-soup.png",
+      "price":3.99
+   },
+   {
+      "id":"5",
+      "title":"Matcha Tea",
+      "image":"img/shop/matcha-soup.png",
+      "price":2.99
+   },
+   {
+      "id":"6",
+      "title":"Cinnamon Delight",
+      "image":"img/shop/cinnamon-soup.png",
+      "price":4.99
+   },
+   {
+      "id":"7",
+      "title":"Caramel Dream",
+      "image":"img/shop/caramel-soup.png",
+      "price":4.99
+   },
+   {
+      "id":"8",
+      "title":"Orange Boost",
+      "image":"img/shop/orange-soup.png",
+      "price":3.99
+   }
+]
