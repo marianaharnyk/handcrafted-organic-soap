@@ -73,6 +73,7 @@
     line-height: 49px;
     color: var(--text-title-color);
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .categories-tabs .active {

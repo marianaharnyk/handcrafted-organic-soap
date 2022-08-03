@@ -53,6 +53,30 @@
     color: var(--text-description-paragraph-color);
     margin: 20px 0;
 }
+.currency-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.select-wrapper{
+    position: relative;
+}
+.select-wrapper::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translateY(-50%);
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10.4px 6px 0 6px;
+    border-color: var(--text-description-paragraph-color) transparent transparent transparent;
+    pointer-events: none;
+
+}
 
 .currency-value{
     font-family: 'Lato', sans-serif;
@@ -64,8 +88,22 @@
     border-color: var(--text-accent-color);
     padding: 10px 15px;
     outline: none;
+    min-width: 230px;
     width: 40%;
+    cursor: pointer;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
 }
+
+.currency-value option{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--text-title-color);
+}
+
 .convert-currency{
     font-family: 'Lato', sans-serif;
     font-size: 14px;
@@ -76,11 +114,8 @@
     color: var(--text-light-color);
     box-shadow: none;
     border-style:none;
-
+    margin-left: 10px;
 }
-
-    
-
 
 .grid{
     display: grid;
@@ -121,7 +156,7 @@
     margin-top: 30px;
 }
 .grid-item__button-info {
-    padding: 13px 30px;
+    padding: 5px 30px;
     background-color: var(--text-accent-color);
     color: var(--text-light-color);
     font-family: 'Lato', sans-serif;
@@ -132,7 +167,7 @@
 }
 
 .grid-item__button-buy {
-    padding: 13px 30px;
+    padding: 5px 30px;
     color: var(--text-title-color);
     margin-left: 20px;
     font-family: 'Lato', sans-serif;
