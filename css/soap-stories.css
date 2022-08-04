@@ -1,0 +1,61 @@
+.soap-stories__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-soap-stories-color);
+    min-height: 450px;
+    max-width: 1152px;
+    padding: 40px 15px;
+
+}
+
+.soap-stories__subtitle {
+    font-family: 'Niconne', cursive;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--text-accent-color);
+}
+
+.soap-stories__title {
+    margin: 20px 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 42px;
+    line-height: 60px;
+    font-weight: 700;
+    color: var(--text-accent-color);
+    text-align: center;
+}
+
+.soap-stories__line {
+    height: 3px;
+    width: 10%;
+    line-height: 27.2px;
+    position: relative;
+    background: var(--line-soap-stories-color);
+    border: none;
+    margin: 0 auto;
+}
+
+.soap-stories__text {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--text-description-color);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.soap-stories__button {
+    padding: 15px 30px;
+    background-color: var(--text-accent-color);
+    color: var(--text-light-color);
+    font-family: 'Lato', sans-serif;
+    font-size: 16.5px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}

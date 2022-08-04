@@ -1,6 +1,6 @@
 .shop{
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 100px;
 }
 .shop__subtitle{
     font-family: 'Niconne', cursive;
@@ -115,6 +115,7 @@
     box-shadow: none;
     border-style:none;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .grid{

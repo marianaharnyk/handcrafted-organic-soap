@@ -2,57 +2,57 @@
    {
       "id":"1",
       "title":"Lemon Start",
-      "image":"img/shop/lemon-soup.png",
+      "image":"img/shop/lemon-soap.png",
       "price":3.99,
-      "info":"lemon-soup"
+      "info":"lemon-soap"
    },
    {
       "id":"2",
       "title":"Fresh Touch",
-      "image":"img/shop/fresh-soup.png",
+      "image":"img/shop/fresh-soap.png",
       "price":2.99,
-      "info":"fresh-soup"
+      "info":"fresh-soap"
    },
    {
       "id":"3",
       "title":"Tender Lavender",
-      "image":"img/shop/lavanda-soup.png",
+      "image":"img/shop/lavanda-soap.png",
       "price":4.99,
-      "info":"lavanda-soup"
+      "info":"lavanda-soap"
    },
    {
       "id":"4",
       "title":"Lemon & Vanilla",
-      "image":"img/shop/lemon-vanila-soup.png",
+      "image":"img/shop/lemon-vanila-soap.png",
       "price":3.99,
-      "info":"lemon-vanila-soup"
+      "info":"lemon-vanila-soap"
    },
    {
       "id":"5",
       "title":"Matcha Tea",
-      "image":"img/shop/matcha-soup.png",
+      "image":"img/shop/matcha-soap.png",
       "price":2.99,
-      "info":"matcha-soup"
+      "info":"matcha-soap"
    },
    {
       "id":"6",
       "title":"Cinnamon Delight",
-      "image":"img/shop/cinnamon-soup.png",
+      "image":"img/shop/cinnamon-soap.png",
       "price":4.99,
-      "info":"cinnamon-soup"
+      "info":"cinnamon-soap"
    },
    {
       "id":"7",
       "title":"Caramel Dream",
-      "image":"img/shop/caramel-soup.png",
+      "image":"img/shop/caramel-soap.png",
       "price":4.99,
-      "info":"caramel-soup"
+      "info":"caramel-soap"
    },
    {
       "id":"8",
       "title":"Orange Boost",
-      "image":"img/shop/orange-soup.png",
+      "image":"img/shop/orange-soap.png",
       "price":3.99,
-      "info":"orange-soup"
+      "info":"orange-soap"
    }
 ]

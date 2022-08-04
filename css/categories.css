@@ -69,7 +69,7 @@
 .tab-item{
     padding: 5px 10px;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 49px;
     color: var(--text-title-color);
     opacity: 0.5;
@@ -82,31 +82,31 @@
     opacity: 1;
 }
 
-.soup-wrapper{
+.soap-wrapper{
     display: flex;
     flex-direction: column;
     padding-top: 25px;
 }
-.soup__image-container{
+.soap__image-container{
     overflow: hidden;
     position: relative;
 }
-.soup__image{
+.soap__image{
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
-.soup__description{
+.soap__description{
     margin-top: 30px;
     text-align: center;
 }
-.soup__description-title{
+.soap__description-title{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 22px;
     line-height: 49px;
     color: var(--text-title-color);
 }
-.soup__description-text{
+.soap__description-text{
     font-family: 'Lato', sans-serif;
     font-size: 17px;
     font-weight: 400;
@@ -115,7 +115,7 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
-.soup__button{
+.soap__button{
     padding: 13px 33px;
     background-color: var(--text-accent-color);
     color: var(--text-light-color);
@@ -131,15 +131,15 @@
     .categories-header__title{
         font-size: 42px;
     }
-    .soup-wrapper{
+    .soap-wrapper{
         flex-direction: row;      
     }
-    .soup__image-container{
+    .soap__image-container{
         max-width: 400px;
         flex: 1;
         margin: auto;
     }
-    .soup__description{
+    .soap__description{
         max-width: 400px;
         flex: 1;
         margin: auto;

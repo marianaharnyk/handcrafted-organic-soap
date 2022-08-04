@@ -1,7 +1,7 @@
 .care__container {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .care__image {
