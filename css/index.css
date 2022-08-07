@@ -1,16 +1,16 @@
 @import "common.css";
-@import "styles.css";
+@import "fonts.css";
 @import "header.css";
 @import "nav-burger-menu.css";
 @import "about-us.css";
 @import "top-choice.css";
-@import "care-section.css";
 @import "categories.css";
 @import "why-us.css";
 @import "shop.css";
 @import "popup.css";
 @import "soap-stories.css";
+@import "care-section.css";
 @import "testimonials.css";
-@import "stories.css";
-
-
+@import "blog.css";
+@import "faq.css";
+@import "footer.css";

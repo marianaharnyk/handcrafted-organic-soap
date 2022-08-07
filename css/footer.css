@@ -1,0 +1,211 @@
+.footer__background-gradient{
+    background: url(../img/footer-gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+}
+.footer__background{
+    background: var(--background-burger-menu-color);
+}
+.footer__top{
+    padding: 50px 0;
+    border-bottom: 0.5px solid;
+    border-color: var(--text-description-color);
+}
+.company__logo-image{
+    max-width: 176px;
+    height: auto;
+    margin: auto;
+}
+.company__description{
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--text-description-color);
+    text-align: center;
+}
+.company__social-links{
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.company__social-link{
+    width: 30px;
+    height: 30px;
+    fill: var(--background-burger-menu-color);
+    background-color: var(--text-accent-color);
+}
+.footer__top-nav{
+    padding-top: 50px;
+}
+.nav__title{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 600;
+    color: var(--text-accent-color);
+    text-align: center;
+}
+.nav__title span{
+    color: var(--text-description-color);
+}
+.nav__item{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--text-description-color);
+    text-align: center;
+    padding: 10px 0;
+}
+.nav__item:hover{
+    text-decoration: underline;
+    color: var(--text-footer-color);
+}
+.footer__top-contacts{
+    padding-top: 50px;
+}
+.contacts__title{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 600;
+    color: var(--text-accent-color);
+    text-align: center;
+}
+.contacts__title span{
+    color: var(--text-description-color);
+}
+.contacts__item{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--text-footer-color);
+    text-align: center;
+    padding-top: 20px;
+}
+.contacts__item-info{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--text-description-color);
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+.contacts-link:hover{
+    text-decoration: underline;
+}
+.footer__top-contact-us{
+    padding-top: 50px;
+}
+.contact-us__title{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 600;
+    color: var(--text-footer-color);
+    text-align: center;
+}
+.contact-us__title span{
+    color: var(--text-accent-color);
+}
+.contact-us__form-user{
+    display: block;
+    border: none;
+    background: var(--background-input-color);
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--text-description-color);
+    text-align: center;
+    padding: 15px 26px;
+    width: 100%;
+    margin-top: 30px;
+    outline-color: var(--text-footer-color);
+}
+.contact-us__form-button{
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--text-light-color);
+    background-color: var(--text-accent-color);
+    text-align: center;
+    padding: 15px 26px;
+    width: 100%;
+    margin-top: 15px;
+}
+.footer__bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.footer__bottom-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--text-description-color);
+    margin-top: 15px;
+}
+
+@media (min-width: 768px){
+    .footer__top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__top-company{
+        max-width: 33.3%;
+        margin: 0 15px;
+    }
+    .company__logo-image{
+        margin: 0;
+    }
+    .company__description,
+    .nav__title,
+    .nav__item,
+    .contacts__title,
+    .contacts__item,
+    .contacts__item-info{
+        text-align: left;
+    }
+    .company__social-links{
+        margin: 0;
+        justify-content: space-between;
+        max-width: 40%;
+    }
+    .footer__top-nav{
+        max-width: 16.6%;
+        margin: 0 15px;
+        padding-top: 0;
+    }
+  
+    .footer__top-contacts{
+        max-width: 25%;
+        margin: 0 15px;
+        padding-top: 0;
+
+    }
+    .footer__top-contact-us{
+        max-width: 25%;
+        padding-top: 0;
+        margin: auto 15px;
+    }
+    .footer__bottom{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="horizontal-flow__container">
             <div class="horizontal-flow">
                 <p class="horizontal-flow__text">20% OFF ON ORGANIC SOAPS | FREE SHIPPING OVER $40</p>
@@ -33,7 +33,7 @@
                             <a href="#about-us" class="navigation-pages__link">About Us</a>
                             <a href="#categories" class="navigation-pages__link">Categories</a>
                             <a href="#shop" class="navigation-pages__link">Shop</a>
-                            <a href="#" class="navigation-pages__link">Testimonials</a>
+                            <a href="#testimonials" class="navigation-pages__link">Testimonials</a>
                             <a href="#" class="navigation-pages__link">Contact us</a>
                         </div>
                         <div class="navigation__text-container">
@@ -511,12 +511,13 @@
 
         </section>
 
-        <section class="testimonials">
+        <section class="testimonials" id="testimonials">
             <div class="container">
                 <p class="testimonials__subtitle">Testimonials</p>
                 <p class="testimonials__title">Our Customers' Reviews<span>.</span></p>
                 <img src="img/branch-icon.svg" class="testimonials__image-branch" alt="Image of branch">
-                <p class="testimonials__text">We're happy that more and more customers prefer handmade organic soaps.</p>
+                <p class="testimonials__text">We're happy that more and more customers prefer handmade organic soaps.
+                </p>
 
                 <div class="slider">
                     <div class="slider__item">
@@ -549,45 +550,45 @@
 
         </section>
 
-        <section class="stories">
+        <section class="blog">
             <div class="container">
-                <p class="stories__subtitle">Our blog</p>
-                <h2 class="stories__title">Soap Stories<span>.</span></h2>
-                <div class="stories__blog-container">
-                    <article class="stories__blog">
-                        <div class="stories__blog-image-container">
-                            <img src="img/stories-blog-1.png" class="stories__blog-image"
+                <p class="blog__subtitle">Our blog</p>
+                <h2 class="blog__title">Soap Stories<span>.</span></h2>
+                <div class="blog__content-container">
+                    <article class="blog__article">
+                        <div class="blog__article-image-container">
+                            <img src="img/stories-blog-1.png" class="blog__article-image"
                                 alt="Photo of soap near the spoon with oatmeal">
                         </div>
-                        <h3 class="stories__blog-title">What is Natural Soap Made of?</h3>
-                        <p class="stories__blog-text">You may have heard that only natural ingredients are used for
+                        <h3 class="blog__article-title">What is Natural Soap Made of?</h3>
+                        <p class="blog__article-text">You may have heard that only natural ingredients are used for
                             homemade soaps. Let's take a look at what soap is made of
                             and how this process... </p>
-                        <a href="#" class="stories__blog-button">Read More →</a>
+                        <a href="#" class="blog__article-button">Read More →</a>
                     </article>
 
-                    <article class="stories__blog">
-                        <div class="stories__blog-image-container">
-                            <img src="img/stories-blog-2.png" class="stories__blog-image"
+                    <article class="blog__article">
+                        <div class="blog__article-image-container">
+                            <img src="img/stories-blog-2.png" class="blog__article-image"
                                 alt="Photo of soap near flowers and crystals">
                         </div>
-                        <h3 class="stories__blog-title">Selecting Your Favorite Smell</h3>
-                        <p class="stories__blog-text">The smell of soap can be too strong and confusing. It is worth
+                        <h3 class="blog__article-title">Selecting Your Favorite Smell</h3>
+                        <p class="blog__article-text">The smell of soap can be too strong and confusing. It is worth
                             remembering that the soap bar has a more concentrated
                             smell than the one that... </p>
-                        <a href="#" class="stories__blog-button">Read More →</a>
+                        <a href="#" class="blog__article-button">Read More →</a>
                     </article>
 
-                    <article class="stories__blog">
-                        <div class="stories__blog-image-container">
-                            <img src="img/stories-blog-3.png" class="stories__blog-image"
+                    <article class="blog__article">
+                        <div class="blog__article-image-container">
+                            <img src="img/stories-blog-3.png" class="blog__article-image"
                                 alt="Photo of soap near in front of green towels and lily">
                         </div>
-                        <h3 class="stories__blog-title">Soap for Problem Skin</h3>
-                        <p class="stories__blog-text">Natural soaps are able to relieve you of problems with acne,
+                        <h3 class="blog__article-title">Soap for Problem Skin</h3>
+                        <p class="blog__article-text">Natural soaps are able to relieve you of problems with acne,
                             blackheads, and excess oil. The main thing here is to
                             select the soap properly... </p>
-                        <a href="#" class="stories__blog-button">Read More →</a>
+                        <a href="#" class="blog__article-button">Read More →</a>
                     </article>
 
                 </div>
@@ -595,9 +596,156 @@
             </div>
 
         </section>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faq__main-info">
+                    <p class="faq__subtitle">Questions</p>
+                    <h2 class="faq__title">Still Have Questions?</h2>
+                    <img src="img/branch-icon.svg" class="faq__image-branch" alt="Image of branch">
+                    <p class="faq__text">Read the sections below and contact us if you need a consultation or any kind
+                        of help.</p>
+
+                    <div class="faq__wrapper">
+                        <div class="faq__question">
+                            <p class="faq__question-text">How can I make the order?</p>
+                            <div class="faq__question-sign"><span> </span></div>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">Simply add the soap you like to the shopping cart and specify
+                                your
+                                shipping address. We provide free delivery for orders
+                                over $40.</p>
+                        </div>
+                    </div>
+                    <div class="faq__wrapper">
+                        <div class="faq__question">
+                            <p class="faq__question-text">Do you have an offline store?</p>
+                            <div class="faq__question-sign"><span> </span></div>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">Yes, we have a small soap shop in New York where you can try and
+                                smell all our soaps.</p>
+                        </div>
+                    </div>
+                    <div class="faq__wrapper">
+                        <div class="faq__question">
+                            <p class="faq__question-text">Do you ship worldwide?</p>
+                            <div class="faq__question-sign"><span> </span></div>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">Due to Covid-19 restrictions, we ship only across the USA for
+                                now,
+                                but we're planning to ship to Europe again in the
+                                near future.</p>
+                        </div>
+                    </div>
+                    <div class="faq__wrapper">
+                        <div class="faq__question">
+                            <p class="faq__question-text">How can I change my order?</p>
+                            <div class="faq__question-sign"><span> </span></div>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">We are really fast at shipping your orders, so if you want to
+                                change
+                                anything or cancel the order, call us as soon as
+                                possible. We'll try our best to make the changes.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="faq__image-container">
+                    <img src="img/faq-image.png" class="faq__image" alt="The soap on the towel">
+                </div>
+            </div>
+
+        </section>
     </main>
 
-    <footer>
+    <footer class="footer">
+        <div class="footer__background-gradient"></div>
+        <div class="footer__background">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer__top-company">
+                        <a href="#header">
+                            <img src="img/logo.svg" class="company__logo-image" alt="The image of soap">
+                        </a>
+                        <p class="company__description">We produce handmade soap from cold-pressed olive oil, coconut
+                            oil,
+                            and cocoa butter. Each of our soap bars is an
+                            extensive source of vitamin E and antioxidants. Turn your routine washing-up into a pleasant
+                            ritual.</p>
+                        <div class="company__social-links">
+                            <a href="https://facebook.com/" class="company__social-link">
+                                <svg class="si62d2de58c4d4c1000d9407a026d527e9f6db4a3ab4622ccbee7f74e91657986658509 svgIcon_1J7"
+                                    viewBox="0 0 32 32">
+                                    <path class="logo_2gS"
+                                        d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://instagram.com/" class="company__social-link">
+                                <svg class="si62d2de58c4d4c1000d9407a026d527e9f6db4a3ab4622ccbee7f74e91657986658509 svgIcon_1J7"
+                                    viewBox="0 0 32 32">
+                                    <g>
+                                        <path class="logo_2gS"
+                                            d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                                        </path>
+                                        <path class="insta-mask-logo-hover_19f"
+                                            style="fill:url(#si62d2de58c4d4c1000d9407a026d527e9f6db4a3ab4622ccbee7f74e91657986658509instagramhover)"
+                                            d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://youtube.com/" class="company__social-link">
+                                <svg class="si62d2de58c4d4c1000d9407a026d527e9f6db4a3ab4622ccbee7f74e91657986658509 svgIcon_1J7"
+                                    viewBox="0 0 32 32">
+                                    <path class="logo_2gS"
+                                        d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__top-nav">
+                        <h3 class="nav__title">Navigation<span>.</span></h3>
+                        <a href="#about-us" class="nav__item">About Us</a>
+                        <a href="#categories" class="nav__item">Categories</a>
+                        <a href="#shop" class="nav__item">Shop</a>
+                        <a href="#testimonials" class="nav__item">Testmonials</a>
+                        <a href="" class="nav__item">Contact us</a>
+
+                    </div>
+
+                    <div class="footer__top-contacts">
+                        <h3 class="contacts__title">Contacts<span>.</span></h3>
+                        <p class="contacts__item">E-mail</p>
+                        <a href="mailto:purity@email.com" class="contacts__item-info contacts-link">purity@email.com</a>
+                        <p class="contacts__item">Phone</p>
+                        <a href="tel:+12345678900" class="contacts__item-info contacts-link">+1 (234) 567 89 00</a>
+                        <p class="contacts__item">Adress</p>
+                        <p class="contacts__item-info">889 Lexington Ave, New York</p>
+                    </div>
+                    <div class="footer__top-contact-us">
+                        <h3 class="contact-us__title">Subscribe to receive our special offers<span>.</span></h3>
+                        <form action="/" class="contact-us__form">
+                            <input type="email" class="contact-us__form-user" placeholder="E-mail" name="email"
+                                required>
+                            <button class="contact-us__form-button">Subscribe →</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p class="footer__bottom-text">© Created by Mariana Harnyk</p>
+                    <p class="footer__bottom-text">All rights Reserved</p>
+
+                </div>
+
+            </div>
+        </div>
 
     </footer>
 
@@ -805,13 +953,13 @@
         </div>
     </div>
 
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/burger-menu.js"></script>
     <script src="js/categories-tab.js"></script>
     <script src="js/product-list.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/faq.js"></script>
 </body>
 
 </html>
