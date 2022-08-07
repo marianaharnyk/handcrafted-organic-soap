@@ -1,6 +1,6 @@
 (async function () {
   let currentRate = 1;
-  const response = await fetch("../api/products.json");
+  const response = await fetch("products.json");
   const products = await response.json();
   renderProducts(products, currentRate);
 
