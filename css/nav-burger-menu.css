@@ -104,6 +104,10 @@ body.lock {
     font-size: 17px;
     color: var(--text-nav-color);
     margin: 10px 5px;
+    transition: all 0.5s;
+}
+.navigation-pages__link:hover{
+    text-decoration: underline;
 }
 
 .navigation__text{
@@ -133,6 +137,10 @@ body.lock {
     width: 30px;
     fill: var(--icon-color);
     margin: 15px 8px;
+    transition: all 0.5s;
+}
+.navigation-social__link:hover{
+    fill: var(--hover-icon-color);
 }
 
 @media (min-width: 992px) {

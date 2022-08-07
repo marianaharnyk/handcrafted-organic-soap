@@ -45,6 +45,10 @@
     font-weight: 700;
     line-height: 20px;
     color: var(--text-accent-color);
+    transition: all 0.5s;
+}
+.categories-header__button:hover{
+    color: var(--text-title-color);
 }
 
 .tab__content{
@@ -124,6 +128,10 @@
     font-weight: 400;
     line-height: 22px;
     text-align: center;
+    transition: all 0.5s;
+}
+.soap__button:hover{
+    background-color: var(--text-title-color);
 }
 
 

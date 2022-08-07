@@ -105,7 +105,6 @@
     overflow: hidden;
     position: relative;
     flex: 1;
-    justify-content:baseline;
 }
 .faq__image{
     top: 0;

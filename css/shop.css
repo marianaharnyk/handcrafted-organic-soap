@@ -87,7 +87,7 @@
     border: 1px solid;
     border-color: var(--text-accent-color);
     padding: 10px 15px;
-    outline: none;
+    outline-color: var(--text-footer-color);
     min-width: 230px;
     width: 40%;
     cursor: pointer;
@@ -116,6 +116,11 @@
     border-style:none;
     margin-left: 10px;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.convert-currency:hover{
+    background-color: var(--text-title-color);
+
 }
 
 .grid{
@@ -165,6 +170,10 @@
     font-weight: 400;
     line-height: 22px;
     text-align: center;
+    transition: all 0.5s;
+}
+.grid-item__button-info:hover{
+    background-color: var(--text-title-color);
 }
 
 .grid-item__button-buy {
@@ -179,6 +188,11 @@
     border: 2px;
     border-color: var(--text-title-color);
     border-style: solid;
+    transition: all 0.5s;
+}
+.grid-item__button-buy:hover{
+    background-color: var(--text-title-color);
+    color: var(--text-light-color);
 }
 @media (min-width: 768px){
     .grid {

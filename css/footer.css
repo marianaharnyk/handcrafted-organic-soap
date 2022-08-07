@@ -38,6 +38,10 @@
     height: 30px;
     fill: var(--background-burger-menu-color);
     background-color: var(--text-accent-color);
+    transition: all 0.5s;
+}
+.company__social-link:hover{
+    background-color: var(--hover-icon-color);
 }
 .footer__top-nav{
     padding-top: 50px;
@@ -139,11 +143,15 @@
     font-weight: 700;
     line-height: 20px;
     color: var(--text-light-color);
-    background-color: var(--text-accent-color);
+    background: var(--text-accent-color);
     text-align: center;
     padding: 15px 26px;
     width: 100%;
     margin-top: 15px;
+    transition: all 0.5s;
+}
+.contact-us__form-button:hover{
+    background: var(--text-title-color);
 }
 .footer__bottom{
     display: flex;

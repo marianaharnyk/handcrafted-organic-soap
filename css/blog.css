@@ -60,7 +60,12 @@
     font-weight: 700;
     line-height: 20px;
     color: var(--text-why-us-title-color);
+    transition: all 0.5s;
 }
+.blog__article-button:hover{
+    text-decoration: underline;
+}
+
 @media (min-width: 768px){
     .blog__content-container{
         display: grid;

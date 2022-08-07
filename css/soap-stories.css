@@ -58,4 +58,8 @@
     font-weight: 400;
     line-height: 22px;
     text-align: center;
+    transition: all 0.5s;
+}
+.soap-stories__button:hover{
+    background-color: var(--text-title-color);
 }
