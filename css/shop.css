@@ -177,7 +177,7 @@
 }
 
 .grid-item__button-buy {
-    padding: 5px 30px;
+    padding: 5px 20px;
     color: var(--text-title-color);
     margin-left: 20px;
     font-family: 'Lato', sans-serif;
