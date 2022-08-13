@@ -161,8 +161,7 @@ body.lock {
         height: auto;
         background-color: transparent;
         margin: auto;
-        z-index: 2;
-        
+        z-index: 2; 
     }
     .navigation__text-container{
         display: none;

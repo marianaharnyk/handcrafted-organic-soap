@@ -37,6 +37,10 @@
     --text-footer-color: rgb(147, 111, 98);
     --background-input-color: rgba(237, 219, 205, 1);
     --hover-icon-color: rgba(203, 164, 151, 1);
+    --background-cart-color: rgb(247, 248, 250);
+    --background-cart-form-color: rgba(51, 51, 51, 0.12);
+    --text-form-accent-color: rgb(204, 56, 51);
+    
     
 
 }
